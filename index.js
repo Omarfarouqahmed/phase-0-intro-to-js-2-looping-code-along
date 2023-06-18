@@ -2,13 +2,13 @@
 const names = ['Guadalupe','Ollie','Aki'];
 const eventHeld = "Birthday";
 function writeCards (names,eventHeld){
-    let newArr = [];
+    let personalCards = [];
     for (let i=0; i < names.length; i++){
-       let message= 'Thank you, ${names[i]}, for the wonderful ${eventHeld} gift!';
-       newArray.push(message)
+      // let message= `Thank you, ${names[i]}, for the wonderful ${eventHeld} gift!`;
+       personalCards.push(`Thank you, ${names[i]}, for the wonderful ${eventHeld} gift!`)
         
     }
-    return newArr;
+    return personalCards;
 }
 console.log(writeCards(names, eventHeld));
 

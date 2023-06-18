@@ -49,4 +49,4 @@ describe( 'index.js', () => {
         .to.be.true;
     } );
   } );
-} );
+} ); 
